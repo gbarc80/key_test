@@ -3,9 +3,9 @@ jobs:
   include:
   - script: env
   - script: cat /home/travis/.travis/job_stages
-  - script: echo $SECRET_1 && echo $SECRET_2
+  - script: echo $SECRET_1 && echo $SECRET_3
   - script: echo $SECRET_1 > xxxx && cat xxxx
+  - script: echo $SECRET_3 > xxxx && cat xxxx
 env:
   global:
-  - secure: xtqEnNgvtpBtM8hwt2/jtrCtnGLrzBXZj7ePqHXsnzd6zPzN7rBV0G835L6uG1Rqwsn7PJwHw0oaYsqpK/kBoVM+vVqbbDPTDwRNE6e3jpt9q0YGzxad1S8/poKCLZzTk07qkdgMPbWHYMZdqRl0G6xm5+w8nJMxY3CFNSPjjxse9WQ9I5P5J3eOLO2K9GbnfTMrXhQWKni0DEtEuK/E96D/kFluNjUdRr6XEiOgsAEsE8LmLR/ufEzOwosSi0ZgcPYKlJgk5WUkq9wHDwkJXvzTFoK8fUxz62mht04R46Q7hTgVPWsQ3YlP2yJOrKTKBVPCUMXHbtdqgUTivkUGZ14Tm8EQ2gp+OMa7WUJ49K9FBxkQmeqUHUa1FBDOgN0DsUs3Hzw0Shd465JLUzww1Wc+nSg4vRfzSBnNEHJOwC4EV9AjE9I0q27ratoBqdBkGSCD3Wp+GqRp1OjqGERyj6iSpXItit9c8tLAr9jBks7D0LfGedQLhJNldM/iE8U9/onz7agy1TXmQSS6rIKzlvC2VXtb/Qo+81UMMs/hyqO17V/ft3CF4nfM/R94owKonNgmokniggFts6/XECsTbxCVVzZ6FahllYxU8WdISmrrjxsg+2MIvp+sBgJrzwGDuX3NFdWCJIxBo1yUTm45nzQzqC+eBL7vnF+qsveJiFg=
   - secure: Si+bE54gCcU40zxTWF8NQfIjvKAAvJXeIGE7jj72Z+re+XpZR0mZmae09VwmNIfLqgz0TOXX87SmjlEOFik5qNhFDwo4ahWB3WP9uMpIT3+U3LgH55/n/riHnf+Z1mJ+ZiyhIsu31apoBpVDRgYKPQIzzj3uo3eMuTGarSx67tzHklwXHHWfp5/O6Jd89GXYvjkJYPVp9pOU5ht3ivipMlFkkPNcEBBsRQXOWD9HIMdjf76P1S9uEeusxHhWHoRmHTPyBaogFSBErFPUJxqm80s0aG9EmIZlKvOzRXCuAEywbSNuIpqLUDahJlmjnZ9E77UrRO9xiGgayolDpYFovaY+UgPL/Mbs3nUkJhi3va0AT1oUf765MYQsCR5x/X6vMMyZV+Ta8uwQdEjBCkL/aAn3uzFRA4bDWZLL0W/OjEOxmfiyk1j+MG3cNpsvt+qrDM3jL7X7LphlzzRBqj3d79qU3QTNc8cUw0exkcJmCzTJS5bjKlt6l2ao3HeRwVtDrg4kdyKJvrcXm8S6+kZryzeB/gZvvz+KtrJ47bp0Wb6oiV9IvXZxRqlY9dngmSt31hbFZ4aB3Yc3XTms5dbyojWuGkHiJvTps/0WPqZ1QHsWS2pA9C7D5ePP0dQm8UBSoPUM1hLQbp2Ti/qmC9TEgoNivCGJ8p9AeCCL9lCnWEk=
